@@ -5,8 +5,7 @@ This module will pack and deploy archive to server
 from fabric.api import local, env, run, put
 from datetime import datetime
 import os
-env.hosts = ['35.231.156.161', '34.73.64.44']
-env.user = 'ubuntu'
+env.hosts = ['35.168.2.64', '54.89.116.235']
 
 
 def do_pack():
