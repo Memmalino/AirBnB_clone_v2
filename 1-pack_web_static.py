@@ -7,7 +7,7 @@ import os
 
 
 def do_pack():
-    """function that pack all content within web_static
+    """pack all content within web_static
     into a .tgz archive
     The archive will be put in versions/
     """
